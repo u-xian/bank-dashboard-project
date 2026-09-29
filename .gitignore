@@ -1,0 +1,25 @@
+# dbt
+dbt/dbt-env/
+dbt/.dbt/
+dbt/bank_dashboard/target/
+dbt/bank_dashboard/logs/
+dbt/bank_dashboard/dbt_packages/
+
+# Airflow
+airflow-project/airflow-env/
+airflow-project/airflow_home/airflow.db
+airflow-project/airflow_home/airflow.cfg
+airflow-project/airflow_home/logs/
+airflow-project/airflow_home/webserver_config.py
+airflow-project/airflow_home/*.pid
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+#Installation steps
+install_Airflow.txt
+install_dbt.txt
